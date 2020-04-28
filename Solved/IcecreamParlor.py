@@ -37,7 +37,9 @@ print(' '.join(map(str, ans_li)))
 
 
 #%%
-
+# references:
+# https://stackoverflow.com/questions/50743582/two-sum-python-solution
+# https://www.accelebrate.com/blog/using-defaultdict-python/
 from collections import defaultdict
 
 # Returns the indices of two numbers that add up to the target
