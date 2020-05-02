@@ -61,6 +61,28 @@ def substrCount(n, s):
     return count
 
 
+#%% second attempt at this problem 
+def substrCount(n, s):
+# =============================================================================
+#     import pdb
+#     pdb.set_trace()
+# =============================================================================
+    
+    ans = n
+    for i in range(2,n+1): # the length of the substring
+        for j in range(n-i+1):
+            substr = s[j:j+i]
+            if substr == substr[::-1]:
+                l = len(substr)//2
+                pl = substr[:l]
+                pr = substr[l:]
+                if len(pr)>len(pl):
+                    pr = pr[1:]
+                if pl == pr:
+                    ans += 1
+    return ans 
+
+
 #%% one solution
 def substrCount(n, s):
     
