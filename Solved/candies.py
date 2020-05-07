@@ -26,9 +26,9 @@ def candies0(n, arr):
     return sum(rewards), rewards
 
 
-#%%
+#%% attempt 2
 # import numpy as np
-def candies(n, arr):
+def candies1(n, arr):
     
     rewards = [0]*n
     uniq_vals = list(set(arr))
@@ -78,8 +78,26 @@ def candies(n, arr):
     return sum(rewards), rewards
 
 
+
+#%% attempt 3
+def candies(n, arr):
+    
+    rewards = [1]*n
+    
+    for i in range(1, n):
+        if arr[i] > arr[i-1]:
+            rewards[i] = rewards[i-1] + 1
+    
+    for i in range(1, n):
+        if arr[-(i+1)] > arr[-i]:
+            if rewards[-(i+1)] <= rewards[-i]:
+                rewards[-(i+1)] = rewards[-i] + 1
+    
+    return sum(rewards), rewards
+
+
 #%%
 arr = [2, 4, 2, 6, 1, 7, 8, 9, 2, 1]
 n = len(arr)
 
-num, rewards = candies(n, arr)
+s, rewards = candies(n, arr)
