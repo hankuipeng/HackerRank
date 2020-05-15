@@ -42,6 +42,55 @@ def freqQuery(queries):
                 ans.append(0)
     return ans
 
+
+#%% submission
+from collections import Counter
+def freqQuery(queries):
+    
+    n = len(queries)
+    
+    freq = Counter()
+    cnt = Counter()
+
+    arr = []
+    
+    import pdb
+    pdb.set_trace()
+    
+    for q in queries:
+        
+        if q[0]==1:
+            cnt[freq[q[1]]]-=1
+            freq[q[1]]+=1
+            cnt[freq[q[1]]]+=1
+
+        elif q[0]==2:
+            if freq[q[1]]>0:
+                
+                cnt[freq[q[1]]]-=1
+                freq[q[1]]-=1
+                
+                cnt[freq[q[1]]]+=1
+
+        else:
+            if cnt[q[1]]>0:
+                arr.append(1)
+            else:
+                arr.append(0)
+
+    return arr
+
+
+#%%
+queries = [
+[3, 4],
+[2, 1003],
+[1, 16],
+[3, 1]]
+
+freqQuery(queries)
+
+
 #%%
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
