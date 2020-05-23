@@ -1,5 +1,5 @@
 # HackerRank
-This folder contains a list of coding questions / challenges on HackerRank that I have attempted (using Python) on HackerRank.
+This folder contains a list of coding questions / challenges on HackerRank that I have attempted on HackerRank (using Python).
 
 
 1. Folder `General` contains the following sub-folders:
