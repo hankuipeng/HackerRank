@@ -104,4 +104,29 @@ def countTriplets(arr, r):
     return count
 
 
+#%%
+arr = [1,1,1,1]
+r = 1
+
+st = sorted(list(set(arr))) # the set of unique values
+ctr = Counter(sorted(arr))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

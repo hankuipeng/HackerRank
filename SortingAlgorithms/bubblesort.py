@@ -59,7 +59,7 @@ def countSwaps(a):
     print('Last element: '+str(a[-1]))
 
 
-###### attempt 2
+#%% ##### attempt 2
 def countSwaps(a):
     Nswaps = 0
     

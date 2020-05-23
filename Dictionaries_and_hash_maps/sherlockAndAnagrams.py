@@ -83,5 +83,5 @@ def sherlockAndAnagrams(s):
 
 #%% test case
 s = 'abba'   
-s = 'kkkk'
+#s = 'kkkk'
 sherlockAndAnagrams(s)
