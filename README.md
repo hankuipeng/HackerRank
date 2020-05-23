@@ -10,7 +10,7 @@ This folder contains a list of coding questions / challenges on HackerRank that 
 
 	* Folder `NotYetSolved` contains problems that I have not managed to solve yet. 
 
-	* Folder `30-Day-Challenge` contains some of the questions I attempted in the [30-Day Challenge](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code).
+	* Folder `30-Day-Challenge` contains some of the questions I attempted in the [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code).
 
 
 2. Folder `ByCategory` contains a list of sub-categories that are organised depending on the type of questions.
