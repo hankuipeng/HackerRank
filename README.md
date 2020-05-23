@@ -13,4 +13,4 @@ This folder contains a list of coding questions / challenges on HackerRank that 
 	* Folder `30-Day-Challenge` contains some of the questions I attempted in [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code).
 
 
-2. Folder `ByCategory` contains a list of sub-categories that are organised depending on the type of questions.
+2. Folder `ByCategory` contains a list of sub-folders that are organised by the categories of the questions.
