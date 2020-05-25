@@ -1,5 +1,0 @@
-Websites with coding challenges:
-- nowcoder.com
-- geeksforgeeks.com
-- hackerrank.com
-- Leetcode.com

@@ -14,3 +14,8 @@ This folder contains a list of coding questions / challenges on HackerRank that 
 
 
 2. Folder `ByCategory` contains a list of sub-folders that are organised by the categories of the questions.
+
+
+***
+
+Other websites with coding challenges: [LeetCode](https://leetcode.com/), [GeeksforGeeks](https://www.geeksforgeeks.org/), [NowCoder](https://www.nowcoder.com/).

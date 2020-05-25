@@ -34,11 +34,6 @@ def insertionSort1(n, arr):
     # print(' '.join(map(str, vec_cur)))
     return vec_cur
 
-#%%
-arr = [1,4,3,5,6,2]
-n = len(arr)
-insertionSort1(n, arr)
-
 
 #%%
 def insertionSort2(n, arr):
@@ -54,9 +49,39 @@ def insertionSort2(n, arr):
         part1 = insertionSort1(l, vec)
         part1.extend(arr[i+1:])  
         arr = part1.copy()
-        print(' '.join(map(str, arr)))
+        #print(' '.join(map(str, arr)))
+        
+    return arr
+
+#%% test case 1
+arr = [1,4,3,5,6,2]
+n = len(arr)
 
 
-#%%
+#%% test case 2
+n = 6
+arr = [4,1,3,5,6,2]
+#insertionSort1(n, arr)
 insertionSort2(n, arr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
